@@ -28,6 +28,18 @@
       "experience": 1,
       "package": -1,
       "id": 1
+    },
+    {
+      "firstName": "antonio",
+      "lastName": "pepito",
+      "email": "pepitotelocojo@gmail.com",
+      "dob": "2023-03-13T23:00:00.000Z",
+      "gender": "mas",
+      "education": "",
+      "company": "nttData",
+      "experience": 4,
+      "package": 20000,
+      "id": 2
     }
   ]
 }
