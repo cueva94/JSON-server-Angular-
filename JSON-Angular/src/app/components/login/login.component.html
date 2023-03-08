@@ -1,0 +1,20 @@
+<mat-card class="container-login">
+    <mat-card-header class="tilte">
+      <mat-card-title>LOGIN</mat-card-title>
+    </mat-card-header><br>
+<form  >
+<mat-form-field appearance="outline" class="from">
+        <mat-label>Usuario</mat-label>
+        <input matInput type="email" name="userName" [(ngModel)] ="userName" required>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Ecriba su contraseña</mat-label>
+        <input matInput  value="" name="password" type="password" [(ngModel)]= "password" required>
+ </mat-form-field>
+
+</form>
+    
+    <mat-card-actions>
+      <button mat-button class="button-login" type="submit"  (click)="login()">Login</button>
+    </mat-card-actions>
+  </mat-card>

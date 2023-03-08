@@ -5,6 +5,7 @@ import { CardDialogComponent } from '../card-dialog/card-dialog.component';
 import {MatPaginator} from '@angular/material/paginator';
 import {MatSort} from '@angular/material/sort';
 import {MatTableDataSource} from '@angular/material/table';
+import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard',
@@ -30,12 +31,18 @@ export class DashboardComponent implements OnInit{
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
+userName: string = "";
+
   constructor(
-    private _dialog: MatDialog, private _emService: EmployeeService
+    private _dialog: MatDialog, private _emService: EmployeeService, private currentRoute: ActivatedRoute
     ){}
 
 ngOnInit(): void {
-  this.getEmployeeList()
+  this.getEmployeeList();
+
+  this.currentRoute.queryParams.subscribe((params: Params) => {
+    this.userName = params['userName'];
+  })
 }
 
     openDialogFrom(){

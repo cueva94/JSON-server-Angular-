@@ -14,8 +14,7 @@ export class CardDialogComponent {
   emFrom: FormGroup;
 
   education: string[] =[
-    'Matriculacion',
-    'Diploma',
+    'Diplomado',
     'Graduado',
     'Post Graduado'
   ];
