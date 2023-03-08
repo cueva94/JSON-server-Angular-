@@ -1,0 +1,105 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "javier ",
+      "lastName": "herrera ",
+      "email": "javi@gmail.com",
+      "dob": "1994-07-13T22:00:00.000Z",
+      "gender": "mas",
+      "education": "",
+      "company": "babel",
+      "experience": 0,
+      "package": 20000,
+      "id": 1
+    },
+    {
+      "firstName": "antonio",
+      "lastName": "cueva",
+      "email": "antonio@gmail.com",
+      "dob": "1990-12-01T23:00:00.000Z",
+      "gender": "Masculino",
+      "education": "",
+      "company": "NttData",
+      "experience": 2,
+      "package": 25000,
+      "id": 2
+    },
+    {
+      "firstName": "jose",
+      "lastName": "guzman",
+      "email": "jose@gmail.com",
+      "dob": "1985-07-07T22:00:00.000Z",
+      "gender": "",
+      "education": "",
+      "company": "Viewnext",
+      "experience": 3,
+      "package": 30000,
+      "id": 3
+    },
+    {
+      "firstName": "silvia",
+      "lastName": "martin",
+      "email": "silvia@gmail.com",
+      "dob": "1995-04-24T22:00:00.000Z",
+      "gender": "Femenino",
+      "education": "",
+      "company": "Accenture",
+      "experience": 4,
+      "package": 40000,
+      "id": 4
+    },
+    {
+      "firstName": "alisson",
+      "lastName": "coral",
+      "email": "alisson",
+      "dob": "1990-06-28T22:00:00.000Z",
+      "gender": "Femenino",
+      "education": "",
+      "company": "indra",
+      "experience": 5,
+      "package": 50000,
+      "id": 5
+    },
+    {
+      "firstName": "dani ",
+      "lastName": "jj",
+      "email": "dani@gmail.xom",
+      "dob": "2023-02-28T23:00:00.000Z",
+      "gender": "Masculino",
+      "education": "grado",
+      "company": "babel",
+      "experience": 4,
+      "package": 50000,
+      "id": 6
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "dob": "",
+      "gender": "",
+      "education": "",
+      "company": "",
+      "experience": "",
+      "package": "",
+      "id": 7
+    }
+  ]
+}
